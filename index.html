@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NAKAO • Cafetería Futurista</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navbar Moderna NAKAO -->
+  <nav class="navbar" id="navbar">
+    <a href="index.html" class="logo">
+       <img src="media/logo.png" alt="NAKAO" class="logo-img"> NAKAO</a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#historia">Historia</a></li>
+      <li><a href="#menu">Menú</a></li>
+      <li><a href="#reseñas">Reseñas</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+    <a href="reservas.html" class="btn-reserva">Reservar Mesa ✨</a>
+    <button class="mobile-toggle" id="mobileToggle">☰</button>
+  </nav>
+
+   
+  <section class="hero fade-in-section" id="inicio">
+    <div class="hero-content">
+      <div class="hero-logo-wrapper">
+      <img src="media/logo1.png" alt="NAKAO Logo" class="hero-logo">
+    </div>
+      <h1>CAFETERÍA NAKAO</h1>
+      <p>Fusión de café , hamburguesas artesanales, salchipapas premium y tortas caseras en un ambiente con ecosistemas.</p>
+      <a href="#menu" class="btn">Explorar Menú</a>
+    </div>
+  </section>
+
+  <section class="fade-in-section" id="historia">
+    <div class="section-title">
+      <h2>HISTORIA</h2>
+      <p>Desde 2022, NAKAO ha sido un refugio de sabor y estilo</p>
+    </div>
+    <div class="history-content">
+      <img src="media/barista.jpg" alt="Nuestro equipo" class="history-img">
+      <p>En NAKAO creemos que el sabor también cuenta historias. Trabajamos con productores locales que cultivan café de altura en distintas regiones de Bolivia. Cada grano representa esfuerzo, calidad y amor por la tierra.
+Nuestros baristas perfeccionan cada preparación con técnicas modernas, logrando un equilibrio entre arte, ciencia y sabor. Lo que servimos no es solo un café, es una experiencia que conecta personas, aromas y emociones.</p>
+      
+<p>
+
+
+Reinventamos los sabores de la comida callejera boliviana con técnicas actuales e ingredientes frescos.
+Anticuchos, salteñas, llauchas, sándwiches y postres adquieren una nueva vida en nuestra cocina.
+Cada plato combina lo tradicional con un toque creativo y moderno, ideal para compartir o disfrutar con un buen café.</p>
+    </div>
+  </section>
+
+  <!-- Menú -->
+  <section class="fade-in-section" id="menu">
+    <div class="section-title">
+      <h2>MENÚ</h2>
+      <p>Sabores que se ven tan bien como saben</p>
+    </div>
+
+    <div class="menu-tabs">
+      <button data-tab="bebidas" class="active">Bebidas</button>
+      <button data-tab="comida">Comida</button>
+    </div>
+
+    <div id="bebidas" class="tab-content active">
+      <div class="menu-item">
+        <div class="menu-img"><img src="media/menu/cafe-con-leche.jpg" alt="Café con Leche"></div>
+        <div class="menu-info">
+          <h3>Café con Leche <span>Bs 8.00</span></h3>
+          <p>Café de origen + leche al vapor</p>
+        </div>
+      </div>
+      <div class="menu-item">
+        <div class="menu-img"><img src="media/menu/matcha-latte.jpg" alt="Matcha Latte"></div>
+        <div class="menu-info">
+          <h3>Matcha Latte <span>Bs 12.00</span></h3>
+          <p>Té verde japonés premium</p>
+        </div>
+      </div>
+      <div class="menu-item">
+        <div class="menu-img"><img src="media/menu/chocolate-caliente.jpg" alt="Chocolate Caliente"></div>
+        <div class="menu-info">
+          <h3>Chocolate Caliente <span>Bs 10.00</span></h3>
+          <p>Con crema y canela</p>
+        </div>
+      </div>
+      
+
+
+      <div class="menu-item">
+        <div class="menu-img"><img src="media/menu/bobatea.jpg" alt="Chocolate Caliente"></div>
+        <div class="menu-info">
+          <h3>Boba Tea<span>Bs 18.00</span></h3>
+          <p>Con Poppins</p>
+        </div>
+      </div>
+      <div class="menu-item">
+        <div class="menu-img"><img src="media/menu/frape.jpg" alt="Café con Leche"></div>
+        <div class="menu-info">
+          <h3>Frape <span>Bs 20.00</span></h3>
+          <p>De Oreo</p>
+        </div>
+      </div>
+      <div class="menu-item">
+        <div class="menu-img"><img src="media/menu/helado.jpg" alt="Matcha Latte"></div>
+        <div class="menu-info">
+          <h3>Helado <span>Bs 12.00</span></h3>
+          <p>De Chocolate  con Vainilla</p>
+        </div>
+      </div>
+    </div>
+
+    
+    
+
+    <div id="comida" class="tab-content">
+      <div class="menu-item">
+        <div class="menu-img"><img src="media/menu/hamburguesa-nakao.avif" alt="Hamburguesa NAKAO"></div>
+        <div class="menu-info">
+          <h3>Hamburguesa NAKAO <span>Bs 25.00</span></h3>
+          <p>Carne 100% de res, queso cheddar, cebolla caramelizada</p>
+        </div>
+      </div>
+      <div class="menu-item">
+        <div class="menu-img"><img src="media/menu/salchipapa-premium.jpg" alt="Salchipapas Premium"></div>
+        <div class="menu-info">
+          <h3>Salchipapas Premium <span>Bs 20.00</span></h3>
+          <p>Con queso, huevo y salsa especial</p>
+        </div>
+      </div>
+      <div class="menu-item">
+        <div class="menu-img"><img src="media/menu/torta-chocolate.webp" alt="Torta de Chocolate"></div>
+        <div class="menu-info">
+          <h3>Torta de Chocolate <span>Bs 15.00</span></h3>
+          <p>Hecha diariamente en casa</p>
+        </div>
+      </div>
+      <div class="menu-item">
+        <div class="menu-img"><img src="media/menu/hamburguesa-nakao.avif" alt="Hamburguesa NAKAO"></div>
+        <div class="menu-info">
+          <h3>Hamburguesa NAKAO <span>Bs 25.00</span></h3>
+          <p>Carne 100% de res, queso cheddar, cebolla caramelizada</p>
+        </div>
+      </div>
+      <div class="menu-item">
+        <div class="menu-img"><img src="media/menu/salchipapa-premium.jpg" alt="Salchipapas Premium"></div>
+        <div class="menu-info">
+          <h3>Salchipapas Premium <span>Bs 20.00</span></h3>
+          <p>Con queso, huevo y salsa especial</p>
+        </div>
+      </div>
+      <div class="menu-item">
+        <div class="menu-img"><img src="media/menu/torta-chocolate.webp" alt="Torta de Chocolate"></div>
+        <div class="menu-info">
+          <h3>Torta de Chocolate <span>Bs 15.00</span></h3>
+          <p>Hecha diariamente en casa</p>
+        </div>
+      </div>
+      <div class="menu-item">
+        <div class="menu-img"><img src="media/menu/hamburguesa-nakao.avif" alt="Hamburguesa NAKAO"></div>
+        <div class="menu-info">
+          <h3>Hamburguesa NAKAO <span>Bs 25.00</span></h3>
+          <p>Carne 100% de res, queso cheddar, cebolla caramelizada</p>
+        </div>
+      </div>
+      <div class="menu-item">
+        <div class="menu-img"><img src="media/menu/salchipapa-premium.jpg" alt="Salchipapas Premium"></div>
+        <div class="menu-info">
+          <h3>Salchipapas Premium <span>Bs 20.00</span></h3>
+          <p>Con queso, huevo y salsa especial</p>
+        </div>
+      </div>
+      
+      </div>
+      
+      
+    </div>
+  </section>
+
+  
+  <!-- Reseñas -->
+  <section class="fade-in-section" id="reseñas">
+    <div class="section-title">
+      <h2>RESEÑAS</h2>
+      <p>Lo que dicen quienes viven la experiencia NAKAO</p>
+    </div>
+    <div class="reseñas-grid">
+      <div class="review-card">
+        <p>“El mejor café que he probado en años. ¡El ambiente es mágico!”</p>
+        <strong>— Ana, Cliente frecuente</strong>
+      </div>
+      <div class="review-card">
+        <p>“Vine por las salchipapas... y me quedé por el matcha. ¡Increíble fusión!”</p>
+        <strong>— Luis, Foodie</strong>
+      </div>
+      <div class="review-card">
+        <p>“Reservé una mesa para mi aniversario. ¡Fue perfecto!”</p>
+        <strong>— Carla & Diego</strong>
+      </div>
+    </div>
+  </section>
+
+  <section class="fade-in-section" id="contacto">
+    <div class="section-title">
+      <h2>CONTÁCTANOS</h2>
+      <p>NAKAO es un punto de encuentro donde la tradición se mezcla con la vanguardia.
+Un ambiente cálido, moderno y lleno de energía diseñado para relajarte, trabajar o reunirte con amigos.
+Usamos materiales reciclados, iluminación suave y música local para que cada visita se sienta especial.</p>
+    </div>
+    <div class="contact-info">
+      <p><strong>📍 Dirección:</strong> Calle Omiste entre 10 de Noviembre, LLallagua-Potosi-Bolivia</p>
+      <p><strong>📞 Teléfono:</strong> (+591) 74126216</p>
+      <p><strong>🕒 Horario:</strong> Lunes–Sábado: 8:00 – 22:00 | Domingo: 8:00 - 21:00</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 CAFETERÍA NAKAO</p>
+    
+  </footer>
+
+  <div class="custom-cursor" id="customCursor"></div>
+
+  <script src="js/main.js"></script>
+
+  <script>
+    const cursor = document.getElementById('customCursor');
+    let posX = 0, posY = 0;
+    let mouseX = 0, mouseY = 0;
+
+    document.addEventListener('mousemove', e => {
+      mouseX = e.clientX;
+      mouseY = e.clientY;
+      cursor.style.opacity = '0.92';
+    });
+
+    function animate() {
+      const dx = mouseX - posX;
+      const dy = mouseY - posY;
+      posX += dx / 6;
+      posY += dy / 6;
+      cursor.style.left = posX + 'px';
+      cursor.style.top = posY + 'px';
+      requestAnimationFrame(animate);
+    }
+    animate();
+
+    const interactiveElements = document.querySelectorAll('a, button, .menu-item, .btn, .nav-links a, .menu-tabs button');
+    interactiveElements.forEach(el => {
+      el.addEventListener('mouseenter', () => cursor.classList.add('hover'));
+      el.addEventListener('mouseleave', () => cursor.classList.remove('hover'));
+      el.addEventListener('mousedown', () => cursor.classList.add('click'));
+      el.addEventListener('mouseup', () => cursor.classList.remove('click'));
+    });
+
+    window.addEventListener('scroll', () => cursor.style.opacity = '0.7');
+  </script>
+</body>
+</html>
